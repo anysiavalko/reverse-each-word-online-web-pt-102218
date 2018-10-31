@@ -1,4 +1,4 @@
-def reverse_each_word_with_each(string)
+def reverse_each_word(string)
   
   #we turn the string into an array with split method
   original_array = string.split(" ")
@@ -16,7 +16,7 @@ end
 
 
 
-def reverse_each_word_with_collect(string)
+def reverse_each_word(string)
   
   #we turn the string into an array with split method
   original_array = string.split(" ")
