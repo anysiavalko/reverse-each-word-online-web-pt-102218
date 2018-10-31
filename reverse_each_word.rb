@@ -1,4 +1,4 @@
-def reverse_each_word(string)
+def reverse_each_word_with_each(string)
   
   #we turn the string into an array with split method
   original_array = string.split(" ")
@@ -16,14 +16,14 @@ end
 
 
 
-def reverse_each_word(string)
+def reverse_each_word_with_collect(string)
   
   #we turn the string into an array with split method
   original_array = string.split(" ")
   
   #Make new empty array, then push each string from original array into it, in reverse
   new_array = []
-  original_array.each do |string|
+  original_array.collect do |string|
     new_array.push (string.reverse)
   end
   
