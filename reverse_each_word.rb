@@ -1,13 +1,15 @@
 def reverse_each_word(string)
   
   #we turn the string into an array with split method
-  string_to_array = string.split(" ")
+  original_array = string.split(" ")
   
-  #new empty array 
+  #Make new empty array, then push each string from original array into it, in reverse
   new_array = []
-  string_to_array.each do |string|
+  original_array.each do |string|
     new_array.push (string.reverse)
   end
+  
+  #Turn array back into a string
   new_array = new_array.join (" ")
   
     
