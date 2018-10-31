@@ -30,3 +30,7 @@ def reverse_each_word(string)
   #Turn array back into a string
   new_array = new_array.join (" ")
 end
+
+
+
+
